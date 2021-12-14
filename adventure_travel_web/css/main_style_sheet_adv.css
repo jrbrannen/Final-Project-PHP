@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+* {    
+    box-sizing:border-box;
+    font-family: 'Cantarell', sans-serif;  
+}
+.adminBar a{
+  color:cornsilk;
+}
+.navlink:hover{
+    color: blue;
+}
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+body.container-fluid{
+    padding: 0 0;
+    background-color: whitesmoke;
+}
+header, main{
+    color: black; 
+}
+header nav {
+    margin-bottom: 50px;
+}
+header.admin{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+nav div li a, .navbar-toggler {
+    border-color: cornsilk;
+    color:cornsilk;   
+}
+.navbar {
+    background-color: black;
+}
+button span.navbar-toggler-icon{
+    background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,248,220, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+button.navbar-toggler {
+border-color: cornsilk;
+} 
+.jumbotron{
+    background-color: cornsilk;
+}
+li{
+    font-size: 1.25em;
+    margin: 0 20px;
+}
+h1, h2, footer {
+    text-align: center;
+}
+header h1, header h2, .carousel, main h4{
+    margin-bottom: 50px;
+}
+header h1{
+    font-size: 3em;
+}
+div.row.jumbotron {
+    background-color: cornsilk;
+}
+.tb-padding{
+    padding: 25px 0;
+}
+.tb-margin{
+    margin: 25px 0;
+}
+.b-margin{
+    margin-bottom: 50px;
+}
+.top-pad{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.error{
+  color: red;
+}
+form{
+    background-color:cornsilk;	
+}
+main .card {
+    background-color: whitesmoke;
+}
+p.card-body{
+    font-size: 1.25em;
+}
+.card:hover{
+    box-shadow: 0 0 2px 2px black;
+}
+footer{
+    background-color: darkslategray;
+    font-weight: bolder;
+    color: cornsilk;
+    padding-top: 100px;
+}
+hr{
+    background-color: cornsilk;
+}
+footer p {
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+footer div p, footer div a{
+    color: cornsilk;
+    text-align: left;
+}
+footer div a:hover{
+    text-decoration: none;
+    color: cyan;
+}
+@media only screen and (max-width:990px){
+    .jumbotron.card-deck{
+        display: flex;
+        flex-direction: column;
+       /* justify-content: space-between;*/
+    }
+    footer h5{
+        margin-top: 30px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    .top-pad{
+        padding: 25px 0;
+    }
+}
+@media only screen and (max-width:576px){
+    header h1{
+        font-size: 2em;
+    }
+    header h2{
+        font-size: 1.75em;
+    }
+
+    main h3, header h3{
+        font-size: 1.25em;
+    }
+
+    .card:hover{
+        box-shadow: none;
+    }
+}
